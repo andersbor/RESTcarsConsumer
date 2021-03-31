@@ -2,11 +2,10 @@
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
+using Newtonsoft.Json; // NuGet Newtonsoft.Json
 // Problem: Security permission ....
 // Solution: manually update NuGet Newtonsoft from version 8.x to 12.x
 // https://stackoverflow.com/questions/48766856/system-security-permissions-missing-when-invoking-jsonconvert-deserializeobject/48767718
-
 
 namespace RESTcarsConsumer
 {
